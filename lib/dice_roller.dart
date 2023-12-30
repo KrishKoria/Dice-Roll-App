@@ -11,13 +11,13 @@ class DiceRoller extends StatefulWidget {
   }
 }
 
-// class _DiceRollerState extends State<DiceRoller> {
-//   var currentDiceFace = 6;
-//   void rollDice() {
-//     setState(() {
-//       currentDiceFace = Random().nextInt(6) + 1;
-//     });
-//   }
+class _DiceRollerState extends State<DiceRoller> {
+  var currentDiceFace = 6;
+  void rollDice() {
+    setState(() {
+      currentDiceFace = Random().nextInt(6) + 1;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
